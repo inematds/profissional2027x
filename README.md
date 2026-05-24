@@ -17,58 +17,18 @@ Construído pela comunidade [inema.vip](https://inema.vip) e publicado em texto 
 - **Duração:** 10–12 semanas, ~100 horas.
 - **Certificação:** mediante entrega de 1 diagnóstico pago real + 1 piloto em PME real.
 - **Foco geográfico:** Brasil, português brasileiro.
-- **Modelo de relação:** mercado aberto, sem franquia, sem selo restritivo.
 
-## Estrutura do repositório
+## Curso
 
-```
-.
-├── PLANO.md                          Plano-mestre do projeto
-├── DECISOES.md                       10 decisões estratégicas do Nei
-│
-├── pesquisa/                         Fundamentação de mercado
-│   ├── 00-sintese-transversal.md     Documento-espinha-dorsal
-│   ├── 01-mercado-pme-brasil.md      Mercado e dor real
-│   ├── 02-metodos-frameworks.md      Frameworks e design AIOS
-│   ├── 03-perfis-e-concorrencia.md   Cargos emergentes e concorrentes
-│   ├── 04-casos-e-falhas.md          Casos reais e padrões de falha
-│   ├── 05-stack-tecnico.md           Stack canônica
-│   ├── 06-comercial-e-vendas.md      Pricing, venda, contratos, LGPD
-│   └── 07-treinamento-cliente.md     Adoção e sustentação
-│
-├── metodo/
-│   ├── dpia-canonico.md              Manual canônico do método
-│   └── templates/                    9 templates operacionais
-│
-└── conteudo/
-    ├── nivel-1-manifesto/            6 arquivos — manifesto, tese, perfil, oportunidade
-    ├── nivel-2-metodo-dpia/          24 arquivos — 4 trilhas (D, P, I, A) × 6 módulos
-    ├── nivel-3-aplicacao/            18 arquivos — venda, contrato, sustentação
-    └── nivel-4-aios/                 29 arquivos — biblioteca de módulos prontos
-```
+O curso completo está em HTML estático (sem build, sem dependências) na pasta `curso/`:
 
-## Estado atual
-
-| Camada | Status | Arquivos | Palavras |
-|--------|--------|---------:|---------:|
-| Pesquisa de mercado (7 frentes) | ✅ Completa | 8 | ~55.000 |
-| Síntese transversal | ✅ Completa | 1 | 5.332 |
-| DPIA canônico + templates | ✅ Completo | 10 | ~22.000 |
-| Nível 1 — Manifesto | ✅ Completo | 6 | 11.274 |
-| Nível 2 — Trilhas DPIA | ✅ Completo | 24 | 34.108 |
-| Nível 3 — Aplicação | ✅ Completo | 18 | 31.195 |
-| Nível 4 — Biblioteca AIOS | ✅ Completo | 29 | ~36.900 |
-| **Total** | | **~96** | **~182.000** |
-
-## Stack canônica do programa
-
-- **LLM:** Claude Sonnet 4.6 (com prompt caching) + Claude Haiku 4.5 para custo.
-- **Orquestração:** n8n self-hosted em Hetzner (~US$ 5/mês).
-- **Memória:** Supabase com pgvector quando necessário.
-- **Mensageria:** WhatsApp Cloud API oficial (Meta).
-- **ERPs locais:** integração via REST com Bling, Omie, Conta Azul.
-- **Pagamentos:** PIX, integração via API.
-- **Fiscal:** NF-e/NFS-e via provedores brasileiros.
+- `index.html` — landing
+- `curso/trilha1/` — **Fundamentos** (manifesto, tese, perfil, oportunidade)
+- `curso/trilha2/` — **Diagnosticar** (D do DPIA)
+- `curso/trilha3/` — **Processar** (P do DPIA)
+- `curso/trilha4/` — **Instruir** (I do DPIA)
+- `curso/trilha5/` — **Automatizar** (A do DPIA)
+- `curso/trilha6/` — **Aplicação** (venda, contrato, sustentação)
 
 ## Princípios
 
