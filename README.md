@@ -43,3 +43,11 @@ O curso completo está em HTML estático (sem build, sem dependências) na pasta
 ## Licença
 
 Conteúdo livre para uso, adaptação e redistribuição por qualquer pessoa ou comunidade.
+
+<!-- inema-backlink:v1 -->
+## Mais no INEMA.CLUB
+
+- [Ficha completa deste curso](https://www.inema.club/cursos/112-profissional-2027-implementadores-de-ia-para-pmes/)
+- [Guia: como aprender inteligência artificial](https://www.inema.club/aprender-inteligencia-artificial/)
+- [Todos os cursos](https://www.inema.club/cursos/)
+<!-- /inema-backlink:v1 -->
